@@ -1,6 +1,7 @@
 package abstractInterpretation.DAGInterpretation
 
 import abstractInterpretation.AbstractInterpretation
+import abstractInterpretation.ElseConsumer
 import abstractInterpretation.concreteInterpretation.ABool
 
 object DAGInterpretation: AbstractInterpretation<DoubleVertex, IntVertex, ABool> {
